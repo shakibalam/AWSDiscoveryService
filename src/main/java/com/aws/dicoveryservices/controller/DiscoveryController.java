@@ -1,6 +1,6 @@
-package com.example.dicoveryservices.controller;
+package com.aws.dicoveryservices.controller;
 
-import com.example.dicoveryservices.service.DiscoveryService;
+import com.aws.dicoveryservices.service.DiscoveryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

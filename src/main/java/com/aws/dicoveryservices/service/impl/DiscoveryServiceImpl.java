@@ -1,12 +1,12 @@
-package com.example.dicoveryservices.service.impl;
+package com.aws.dicoveryservices.service.impl;
 
-import com.example.dicoveryservices.entity.BucketFileDetails;
-import com.example.dicoveryservices.entity.EC2Instance;
-import com.example.dicoveryservices.entity.S3Bucket;
-import com.example.dicoveryservices.repository.BucketFileDetailsRepository;
-import com.example.dicoveryservices.repository.EC2InstanceRepository;
-import com.example.dicoveryservices.repository.S3BucketRepository;
-import com.example.dicoveryservices.service.DiscoveryService;
+import com.aws.dicoveryservices.entity.BucketFileDetails;
+import com.aws.dicoveryservices.entity.EC2Instance;
+import com.aws.dicoveryservices.entity.S3Bucket;
+import com.aws.dicoveryservices.repository.BucketFileDetailsRepository;
+import com.aws.dicoveryservices.repository.EC2InstanceRepository;
+import com.aws.dicoveryservices.repository.S3BucketRepository;
+import com.aws.dicoveryservices.service.DiscoveryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;

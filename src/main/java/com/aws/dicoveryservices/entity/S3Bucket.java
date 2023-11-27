@@ -1,4 +1,4 @@
-package com.example.dicoveryservices.entity;
+package com.aws.dicoveryservices.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.example.dicoveryservices.repository;
+package com.aws.dicoveryservices.repository;
 
-import com.example.dicoveryservices.entity.S3Bucket;
+import com.aws.dicoveryservices.entity.S3Bucket;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

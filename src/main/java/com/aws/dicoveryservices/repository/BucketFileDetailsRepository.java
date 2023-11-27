@@ -1,6 +1,6 @@
-package com.example.dicoveryservices.repository;
+package com.aws.dicoveryservices.repository;
 
-import com.example.dicoveryservices.entity.BucketFileDetails;
+import com.aws.dicoveryservices.entity.BucketFileDetails;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

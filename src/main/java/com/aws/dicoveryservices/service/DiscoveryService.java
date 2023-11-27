@@ -1,4 +1,4 @@
-package com.example.dicoveryservices.service;
+package com.aws.dicoveryservices.service;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

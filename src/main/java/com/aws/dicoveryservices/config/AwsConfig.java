@@ -1,4 +1,4 @@
-package com.example.dicoveryservices.config;
+package com.aws.dicoveryservices.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
