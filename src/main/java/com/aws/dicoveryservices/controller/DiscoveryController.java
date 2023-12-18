@@ -1,5 +1,6 @@
 package com.aws.dicoveryservices.controller;
 
+import com.aws.dicoveryservices.customexception.CustomException;
 import com.aws.dicoveryservices.service.DiscoveryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,14 +39,16 @@ public class DiscoveryController {
     }
 
     @GetMapping("/job/result/{jobId}")
-    public ResponseEntity<String> getJobResult(@PathVariable("jobId") String jobId) {
-        try {
-            // to return the status by jobId
-            return ResponseEntity.ok("JobId " + jobId + " status is : " + discoveryService.getJobResultByJobId(jobId));
-        } catch (Exception e) {
-            log.info("Error occurred while fetching status of jobId :" + jobId);
-            return ResponseEntity.status(500).body("Error: " + e.getMessage());
-        }
+    public ResponseEntity<String> getJobResult(@PathVariable("jobId") String jobId) throws CustomException {
+//        try {
+//            // to return the status by jobId
+////            return ResponseEntity.ok("JobId " + jobId + " status is : " + discoveryService.getJobResultByJobId(jobId));
+//            throw new CustomException("Checking");
+//        } catch (Exception e) {
+//            log.info("Error occurred while fetching status of jobId :" + jobId);
+//            return ResponseEntity.status(500).body("Error: " + e.getMessage());
+//        }
+        throw new CustomException("Checking");
     }
 
     @GetMapping("/discovery/result/{service}")
